@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 20px;
+}
+header{
+    width: 100%;
+    height: 40px;
+    font-size: 18px;
+}
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    padding: 0 40px;
+    font-family: inherit;
+    font-weight: bold;
+}
+.title{
+    color: purple;
+    margin-left: 30px;
+    font-size: 20px;
+}
+.options{
+    margin-left: 150px;
+}
+ a, select{
+    text-decoration: none;
+    border: 0;
+    background: inherit;
+    font-family: inherit;
+    font-size: inherit;
+    color: black;
+    font-weight: inherit;
+    padding: 0 10px;
+}
+
+button{
+    padding: 10px 40px;
+    color: white;
+    background: purple;
+    border-radius: 8px;
+    font-weight: inherit;
+    font-family: inherit;
+    margin: 0 8px;
+}
+.login{
+    background: white;
+    color: purple;
+    font-weight: bold;
+    margin-right: 35px;
+}
+.contact{
+    text-align: center;
+    color: purple;
+    font-size: 60px;
+}
+h1{
+    margin-bottom: 50px;
+}
+img{
+    margin-left: 40px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+/* form */
+
+.flex2{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 110px;
+}
+.form{
+    width: 38%;
+    height: auto;
+    background: rgb(245, 233, 245);
+    margin: 0 70px;
+    border-radius: 15px;
+    padding: 40px 40px;
+}
+label{
+    margin-left: 15px;
+}
+input{
+    display: block;
+    width: 100%;
+    height: 35px;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px 0 20px 0;
+    border: 2px solid gray;
+    font-family: inherit;
+    font-size: 16px;
+}
+textarea{
+    width: 100%;
+    text-decoration: none;
+    resize: none;
+    padding: 15px;
+    font-family: inherit;
+    font-size: 16px;
+    margin: 10px 0 20px 0;
+    border: 2px solid grey;
+    border-radius: 10px;
+}
+.send{
+    font-weight: bold;
+    font-family: inherit;
+    letter-spacing: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer{
+    width: 100%;
+    height: 280px;
+    background: purple;
+    padding: 50px;
+    color: white;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+}
+.title2{
+    color: white;
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-weight: bold;
+}
+p{
+    font-weight: bold;
+}
+.a{
+    color: white;
+    padding: 0 ;
+    display: block;
+    padding-bottom: 10px;
+
+}
+.media{
+    margin:0 70px ;
+    padding-right: 50px;
+}
+
+.fa-facebook{
+    background: purple;
+    color: white;
+}
+.fa-linkedin{
+    background: purple;
+    color: white;
+    
+}
+.fa-youtube{
+    color: purple;
+    background: white;
+}
+.fa-instagram{
+    color: purple;
+    background: white;
+}
+
+@media screen and (max-width: 560px) {
+    body{
+        font-size: 17px;
+    }
+    a, select{
+        padding: 0;
+    }
+}
